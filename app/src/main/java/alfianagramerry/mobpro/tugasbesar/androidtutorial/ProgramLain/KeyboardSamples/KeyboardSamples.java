@@ -32,7 +32,7 @@ public class KeyboardSamples extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main_keyboardsample);
+        setContentView(R.layout.activity_keyboard_samples);
         setTitle("Keyboard Sample");
         toolbar = (Toolbar)findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);

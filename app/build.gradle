@@ -11,19 +11,6 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
-    sourceSets {
-        main {
-            res.srcDirs = [
-                    'src/main/res/layouts/keyboardsample',
-                    'src/main/res/layouts/phone_number_spinner',
-                    'src/main/res/layouts/lesson3',
-                    'src/main/res/layouts/lesson4',
-                    'src/main/res/layouts/',
-                    'src/main/res',
-            ]
-        }
-    }
-
 
     buildTypes {
         release {

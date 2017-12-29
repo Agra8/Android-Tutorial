@@ -28,7 +28,7 @@ public class PhoneNumberSpinner extends AppCompatActivity implements
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main_phone_number_spinner);
+        setContentView(R.layout.activity_phone_number_spinner);
         setTitle("Phone Number Spinner");
         toolbar = (Toolbar)findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
